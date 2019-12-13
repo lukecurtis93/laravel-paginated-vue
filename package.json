@@ -1,0 +1,43 @@
+{
+  "name": "laravel-paginated-vue",
+  "version": "1.0.0",
+  "description": "A paginated table that can be used for boilerplates with a Laravel Backend with Spatie Query Builder",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vue-cli-service build --target lib src/PaginatedTable.vue"
+  },
+  "dependencies": {
+    "laravel-vue-pagination": "^2.3.1",
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-plugin-unit-jest": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "@vue/eslint-config-standard": "^3.0.1",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.0.1",
+    "bootstrap": "^4.1.3",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukecurtis93/laravel-paginated-vue.git"
+  },
+  "keywords": [
+    "laravel",
+    "pagination",
+    "vue",
+    "query",
+    "builder"
+  ],
+  "author": "Luke Curtis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukecurtis93/laravel-paginated-vue/issues"
+  },
+  "homepage": "https://github.com/lukecurtis93/laravel-paginated-vue#readme"
+}
