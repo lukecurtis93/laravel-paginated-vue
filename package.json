@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "laravel-vue-pagination": "^2.3.1",
-    "vue": "^2.5.17"
+    "vue": "^3.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.1",
